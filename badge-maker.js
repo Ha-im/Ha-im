@@ -47,10 +47,13 @@ techStack.forEach(tech => {
     logo: tech.logo
   };
 
+  // 파일명 공백 제거 및 하이픈(-)으로 변환
+  const fileName = tech.name.replace(/ /g, '-');
+
   try {
     const svg = makeBadge(format);
-    fs.writeFileSync(`${folder}/${tech.name}.svg`, svg);
-    console.log(` ${tech.name} badge created!`);
+    fs.writeFileSync(`${folder}/${fileName}.svg`, svg);
+    console.log(`✅ ${tech.name} badge created!`);
   } catch (e) {
     if (e instanceof ValidationError) console.error(e.message);
     else throw e;

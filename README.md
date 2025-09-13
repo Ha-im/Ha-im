@@ -25,7 +25,7 @@
 ![JSON](badges/JSON.svg)  
 ![Supabase](badges/Supabase.svg)  
 ![Firebase](badges/Firebase.svg)  
-![Kakao Login](badges/Kakao Login.svg)  
+![Kakao Login](badges/Kakao-Login.svg)  
 
 ## 🧰 Tools & Design
 ![Git](badges/Git.svg)  
