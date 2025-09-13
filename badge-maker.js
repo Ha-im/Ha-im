@@ -5,25 +5,36 @@ const fs = require('fs');
 const folder = 'badges';
 if (!fs.existsSync(folder)) fs.mkdirSync(folder);
 
-// 경선님 맞춤 기술 스택
+// 전체 기술 스택
 const techStack = [
   // Frontend
-  { name: 'React', color: 'blue', percent: 70 },
-  { name: 'Next.js', color: 'black', percent: 60 },
-  { name: 'JavaScript', color: 'yellow', percent: 75 },
-  { name: 'HTML5', color: 'orange', percent: 85 },
-  { name: 'CSS3', color: 'blue', percent: 85 },
+  { name: 'React', color: 'blue', percent: 70, logo: 'react' },
+  { name: 'Next.js', color: 'black', percent: 60, logo: 'next.js' },
+  { name: 'JavaScript', color: 'yellow', percent: 75, logo: 'javascript' },
+  { name: 'TypeScript', color: '007ACC', percent: 50, logo: 'typescript' },
+  { name: 'Vue', color: 'brightgreen', percent: 50, logo: 'vue.js' },
+  { name: 'HTML5', color: 'orange', percent: 85, logo: 'html5' },
+  { name: 'CSS3', color: 'blue', percent: 85, logo: 'css3' },
+  { name: 'jQuery', color: 'lightblue', percent: 50, logo: 'jquery' },
+  { name: 'Bootstrap', color: 'purple', percent: 60, logo: 'bootstrap' },
+  { name: 'Swiper.js', color: 'blue', percent: 50, logo: 'swiper' },
+  { name: 'Full.js', color: 'orange', percent: 50, logo: 'fullcalendar' },
 
   // Backend / DB
-  { name: 'Supabase', color: 'blue', percent: 50 },
-  { name: 'Firebase', color: 'orange', percent: 40 },
+  { name: 'Node.js', color: 'green', percent: 60, logo: 'node.js' },
+  { name: 'PHP', color: 'purple', percent: 50, logo: 'php' },
+  { name: 'MySQL', color: 'blue', percent: 60, logo: 'mysql' },
+  { name: 'JSON', color: 'black', percent: 70, logo: 'json' },
+  { name: 'Supabase', color: 'blue', percent: 50, logo: 'supabase' },
+  { name: 'Firebase', color: 'orange', percent: 50, logo: 'firebase' },
+  { name: 'Kakao Login', color: 'FFCD00', percent: 60, logo: 'kakao' },
 
-  // Tools & Others
-  { name: 'Git', color: 'red', percent: 90 },
-  { name: 'GitHub', color: 'black', percent: 90 },
-  { name: 'Figma', color: 'red', percent: 65 },
-  { name: 'Notion', color: 'black', percent: 70 },
-  { name: 'Vercel', color: 'black', percent: 60 }
+  // Tools & Design
+  { name: 'Git', color: 'red', percent: 90, logo: 'git' },
+  { name: 'GitHub', color: 'black', percent: 90, logo: 'github' },
+  { name: 'Figma', color: 'red', percent: 65, logo: 'figma' },
+  { name: 'Notion', color: 'black', percent: 70, logo: 'notion' },
+  { name: 'Vercel', color: 'black', percent: 60, logo: 'vercel' }
 ];
 
 // 배지 생성
@@ -32,7 +43,8 @@ techStack.forEach(tech => {
     label: tech.name,
     message: `${tech.percent}%`,
     color: tech.color,
-    style: 'flat-square'
+    style: 'flat-square',
+    logo: tech.logo
   };
 
   try {
