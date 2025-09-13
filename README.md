@@ -1,32 +1,49 @@
-## 🚀 Tech Stack
+# 👋 Ha-im | Projects & Study Log
 
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
-![Vue](https://img.shields.io/badge/Vue-4FC08D?logo=vue.js&logoColor=fff)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=fff)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=fff)
+다양한 프로젝트와 학습 기록을 정리한 공간입니다.  
+**주요 기술 스택**, **진행한 프로젝트**, **블로그 글**, **사용해본 도구**를 한눈에 확인할 수 있습니다.
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=fff)
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)
-![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=fff)
+---
 
-### Integration / Tools
-![Kakao](https://img.shields.io/badge/Kakao%20Login-FFCD00?logo=kakaotalk&logoColor=000)
+## 🖥️ Frontend
+![React](./badges/React.svg)  
+![Next.js](./badges/Next.js.svg)  
+![JavaScript](./badges/JavaScript.svg)  
+![HTML5](./badges/HTML5.svg)  
+![CSS3](./badges/CSS3.svg)  
 
-### Design
-![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff)
+## 🗄️ Backend / DB
+![Supabase](./badges/Supabase.svg)  
+![Firebase](./badges/Firebase.svg)  
 
-### Integration
-![Kakao](https://img.shields.io/badge/Kakao%20Login-FFCD00?logo=kakaotalk&logoColor=000)
-![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=fff)
+## 🧰 Tools & Others
+![Git](./badges/Git.svg)  
+![GitHub](./badges/GitHub.svg)  
+![Figma](./badges/Figma.svg)  
+![Notion](./badges/Notion.svg)  
+![Vercel](./badges/Vercel.svg)  
 
-## 📊 Focus
-- React: 70%  
-- JavaScript: 60%  
-- Others: 40%
+---
+
+## 📂 Projects
+- **완두 (소모임 플랫폼) 개발**  
+  👉 [Repo](https://github.com/Ha-im/wandoo) · 모바일 퍼스트, 미니멀 UI 설계
+
+- **영화 소개/상영 사이트 리뉴얼**  
+  👉 [Repo](https://github.com/Ha-im/movie-site) · 관리자 페이지 포함
+
+- **식품 회사 사이트 리뉴얼**  
+  👉 [Repo](https://github.com/Ha-im/playground) - 정적 페이지
+
+---
+
+## 📖 Study & Blog
+- 📚 [React & Redux Study](https://github.com/Ha-im/react-redux-study)  
+- ✍️ [블로그](https://preschool.tistory.com/) — 학원 학습 기록 및 공부 내용 정리
+
+---
+
+## 📞 Contact
+- ✉️ Email: [kod6844@gmail.com](mailto:kod6844@gmail.com)  
+- 🐙 GitHub: [@Ha-im](https://github.com/Ha-im)  
+- 💼 LinkedIn: [Profile](https://linkedin.com/in/username)
