@@ -1,13 +1,4 @@
-// badge-maker.js
-const { makeBadge, ValidationError } = require('badge-maker');
-const fs = require('fs');
-const si = require('simple-icons');
 
-// 배지 저장 폴더
-const folder = 'badges';
-if (!fs.existsSync(folder)) fs.mkdirSync(folder);
-
-// 기술 스택 정의 (Simple Icons 기반)
 const techStack = [
   // Frontend
   { name: 'React', color: 'blue', icon: si.react },
@@ -19,7 +10,7 @@ const techStack = [
   { name: 'CSS3', color: 'blue', icon: si.css3 },
   { name: 'jQuery', color: 'lightblue', icon: si.jquery },
   { name: 'Bootstrap', color: 'purple', icon: si.bootstrap },
-  { name: 'Swiper.js', color: 'blue', icon: si.swiper },
+  { name: 'Swiper.js', color: 'blue' }, // 로고x
   { name: 'Full.js', color: 'orange', icon: si.fullcalendar },
 
   // Backend / DB
@@ -29,13 +20,13 @@ const techStack = [
   { name: 'JSON', color: 'black', icon: si.json },
   { name: 'Supabase', color: 'blue', icon: si.supabase },
   { name: 'Firebase', color: 'orange', icon: si.firebase },
-  { name: 'Kakao Login', color: 'FFCD00' },
+  { name: 'Kakao Login', color: 'FFCD00' }, // 로고x
 
   // Tools & Design
   { name: 'Git', color: 'red', icon: si.git },
   { name: 'GitHub', color: 'black', icon: si.github },
   { name: 'Figma', color: 'red', icon: si.figma },
-  { name: 'Notion', color: 'black', icon: si.notion },
+  { name: 'Tistory', color: 'black' }, // 로고x
   { name: 'Vercel', color: 'black', icon: si.vercel }
 ];
 
@@ -53,7 +44,7 @@ techStack.forEach(tech => {
     const svg = makeBadge(format);
     const fileName = tech.name.replace(/\s/g, '-').replace(/\./g, '') + '.svg';
     fs.writeFileSync(`${folder}/${fileName}`, svg);
-    console.log(` ${tech.name} badge created!`);
+    console.log(`✅ ${tech.name} badge created!`);
   } catch (e) {
     if (e instanceof ValidationError) console.error(e.message);
     else throw e;
