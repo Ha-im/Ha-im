@@ -15,7 +15,7 @@
 ![CSS3](badges/CSS3.svg)  
 ![jQuery](badges/jQuery.svg)  
 ![Bootstrap](badges/Bootstrap.svg)  
-![Swiper.js](badges/Swiper.svg)  
+![Swiper.js](badges/Swiperjs.svg)  
 ![Full.js](badges/Fulljs.svg)  
 
 ## 🗄️ Backend / DB
