@@ -7,7 +7,7 @@
 
 ## 🖥️ Frontend
 ![React](badges/React.svg)  
-![Next.js](badges/Next.js.svg)  
+![Next.js](badges/Nextjs.svg)  
 ![JavaScript](badges/JavaScript.svg)  
 ![TypeScript](badges/TypeScript.svg)  
 ![Vue](badges/Vue.svg)  
@@ -15,11 +15,11 @@
 ![CSS3](badges/CSS3.svg)  
 ![jQuery](badges/jQuery.svg)  
 ![Bootstrap](badges/Bootstrap.svg)  
-![Swiper.js](badges/Swiper.js.svg)  
-![Full.js](badges/Full.js.svg)  
+![Swiper.js](badges/Swiper.svg)  
+![Full.js](badges/Fulljs.svg)  
 
 ## 🗄️ Backend / DB
-![Node.js](badges/Node.js.svg)  
+![Node.js](badges/Nodejs.svg)  
 ![PHP](badges/PHP.svg)  
 ![MySQL](badges/MySQL.svg)  
 ![JSON](badges/JSON.svg)  

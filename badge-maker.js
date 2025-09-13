@@ -5,11 +5,11 @@ const fs = require('fs');
 const folder = 'badges';
 if (!fs.existsSync(folder)) fs.mkdirSync(folder);
 
-// 전체 기술 스택
+// 완전 최종 기술 스택 (깨지지 않도록 Simple Icons 기준 + Kakao Login은 logo 없음)
 const techStack = [
   // Frontend
   { name: 'React', color: 'blue', percent: 70, logo: 'react' },
-  { name: 'Next.js', color: 'black', percent: 60, logo: 'next.js' },
+  { name: 'Next.js', color: 'black', percent: 60, logo: 'nextdotjs' },
   { name: 'JavaScript', color: 'yellow', percent: 75, logo: 'javascript' },
   { name: 'TypeScript', color: '007ACC', percent: 50, logo: 'typescript' },
   { name: 'Vue', color: 'brightgreen', percent: 50, logo: 'vue.js' },
@@ -27,7 +27,7 @@ const techStack = [
   { name: 'JSON', color: 'black', percent: 70, logo: 'json' },
   { name: 'Supabase', color: 'blue', percent: 50, logo: 'supabase' },
   { name: 'Firebase', color: 'orange', percent: 50, logo: 'firebase' },
-  { name: 'Kakao Login', color: 'FFCD00', percent: 60, logo: 'kakao' },
+  { name: 'Kakao Login', color: 'FFCD00', percent: 60 }, // logo 없음
 
   // Tools & Design
   { name: 'Git', color: 'red', percent: 90, logo: 'git' },
@@ -44,15 +44,14 @@ techStack.forEach(tech => {
     message: `${tech.percent}%`,
     color: tech.color,
     style: 'flat-square',
-    logo: tech.logo
+    logo: tech.logo || undefined // logo 없으면 undefined
   };
-
-  // 파일명 공백 제거 및 하이픈(-)으로 변환
-  const fileName = tech.name.replace(/ /g, '-');
 
   try {
     const svg = makeBadge(format);
-    fs.writeFileSync(`${folder}/${fileName}.svg`, svg);
+    // 파일명 공백 -> 하이픈 처리
+    const fileName = tech.name.replace(/\s/g, '-').replace(/\./g, '') + '.svg';
+    fs.writeFileSync(`${folder}/${fileName}`, svg);
     console.log(`✅ ${tech.name} badge created!`);
   } catch (e) {
     if (e instanceof ValidationError) console.error(e.message);
