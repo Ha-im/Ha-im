@@ -31,7 +31,7 @@
 ![Git](badges/Git.svg)  
 ![GitHub](badges/GitHub.svg)  
 ![Figma](badges/Figma.svg)  
-![Tistory](badges/Notion.svg)  
+![Tistory](badges/Tistory.svg)  
 ![Vercel](badges/Vercel.svg)  
 
 ---
