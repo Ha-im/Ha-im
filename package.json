@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "badge-maker": "^5.0.2"
+    "badge-maker": "^5.0.2",
+    "simple-icons": "^15.14.0"
   }
 }
