@@ -6,22 +6,22 @@
 ---
 
 ## 🖥️ Frontend
-![React](./badges/React.svg)  
-![Next.js](./badges/Next.js.svg)  
-![JavaScript](./badges/JavaScript.svg)  
-![HTML5](./badges/HTML5.svg)  
-![CSS3](./badges/CSS3.svg)  
+![React](badges/React.svg)  
+![Next.js](badges/Next.js.svg)  
+![JavaScript](badges/JavaScript.svg)  
+![HTML5](badges/HTML5.svg)  
+![CSS3](badges/CSS3.svg)  
 
 ## 🗄️ Backend / DB
-![Supabase](./badges/Supabase.svg)  
-![Firebase](./badges/Firebase.svg)  
+![Supabase](badges/Supabase.svg)  
+![Firebase](badges/Firebase.svg)  
 
 ## 🧰 Tools & Others
-![Git](./badges/Git.svg)  
-![GitHub](./badges/GitHub.svg)  
-![Figma](./badges/Figma.svg)  
-![Notion](./badges/Notion.svg)  
-![Vercel](./badges/Vercel.svg)  
+![Git](badges/Git.svg)  
+![GitHub](badges/GitHub.svg)  
+![Figma](badges/Figma.svg)  
+![Notion](badges/Notion.svg)  
+![Vercel](badges/Vercel.svg)  
 
 ---
 
