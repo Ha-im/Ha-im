@@ -53,12 +53,14 @@
 ---
 ## 📊 Graph
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ha-im&layout=compact) 
-![WONSEOK's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ha-im&show_icons=true&theme=radical)
+![Ha-im GitHub stats](https://github-readme-stats.vercel.app/api?username=Ha-im&show_icons=true&theme=radical)
+
+---
 
 ## 🔄 GitHub Repository
 [![완두프로젝트](https://github-readme-stats.vercel.app/api/pin/?username=timcho19&repo=wandoo-project)](https://github.com/Ha-im/wandoo-project)
 
-
+---
 
 ## 📞 Contact
 - ✉️ Email: [kod6844@gmail.com](mailto:kod6844@gmail.com)  
