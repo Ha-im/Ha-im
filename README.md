@@ -65,4 +65,4 @@
 ## 📞 Contact
 - ✉️ Email: [kod6844@gmail.com](mailto:kod6844@gmail.com)  
 - 🐙 GitHub: [@Ha-im](https://github.com/Ha-im)  
-- 💼 LinkedIn: [Profile]()
+- 💼 LinkedIn: [Profile](https://profile-park.vercel.app/)
